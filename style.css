@@ -1,3 +1,232 @@
 body{
     margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+section{
+    width:100%;
+    padding:0px 0px 100px 0px;
+    height:500px;
+}
+h1{
+    font-size:3rem;
+}
+h2{
+    font-size:2rem;
+}
+h3{}
+h4{
+    font-size:18px;
+    margin-bottom: 5px;
+}
+p{
+    font-family: 'poppins', sans-serif;
+    text-align:justify;
+    font-size:14px;
+color:dimgray;
+padding-bottom:15px;
+}
+
+.half-width{
+    width:40%;
+    float:left;
+    margin:5%;
+    height:80%;
+
+}
+
+/* header_area */
+
+#header-area{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.half-width.header-title {
+    margin-top: 6%;
+}
+.pp1-div{
+    margin-top:0px;
+}
+.pp2-div{
+    margin-bottom:0px;
+}
+.name-highlight{
+    color:#d84697;
+    font-size:3.5rem;
+}
+.profile-image{
+    width:80%;
+
+}
+.pp1{
+    transform:rotate(27deg);
+}
+.link-btn{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+    padding:10px 20px;
+    font-weight:700;
+    border-radius:10px;
+    margin:10% 3% 5% 0% !important;
+    background-image: linear-gradient(45deg,#f254ab, #d84697);
+}
+.link-btn:hover{
+    color:#d84697;
+    background: floralwhite;
+    border:1px solid #d84697;
+}
+/* bio-area */
+
+#bio-area{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* work-area */
+
+
+#work-area{
+    margin-top:100px;
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.work-img{
+    width:30%;
+    margin:1.5%;
+}
+.center-align{
+    text-align:center;
+}
+.work-area-title{
+    margin: 150px 0px 50px;
+}
+
+/* contact-area */
+
+    
+
+#contact-area{
+    width:60%;
+    margin:auto;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#msg-btn{
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+    padding:10px 20px;
+    font-weight:700;
+    border-radius:5px;
+    margin:10% 3% 5% 0%;
+   
+    
+}
+#msg-btn div:hover{
+    color:#d84697;
+    background: floralwhite;
+    border:1px solid #d84697;
+}
+#msg-btn div{
+    width:60%;
+    height:15%;
+    border-radius: 5px;;
+    background-image: linear-gradient(45deg,#f254ab, #d84697);
+    margin:auto;
+    padding: 10px 0px 10px 0px;
+    
+    
+}
+#msg-btn div p{
+    color:#fff ;
+    text-align: center;
+    line-height: 1.5;
+}
+#msg-btn div p:hover{
+    color:#d84697;
+}
+
+#msg-btn div p .email-highlight{
+    font-size: 20px;
+}
+
+/* services-area */
+#services-area{
+    margin:auto;
+    background-image: url("images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services-box{
+    padding:50px 0px;
+    margin: auto;
+    width:100%;
+    
+}
+.service-box{
+    width:25%;
+    text-align:center;
+    margin: auto;
+    float:left;
+    padding:4%;
+    box-shadow:10px 10px 40px 10px grey ;
+    background-color: antiquewhite;
+}
+
+/* hobbies-area */
+
+
+.hobbies-area{
+    text-align: center;
+    height:700px;
+    position: relative;
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.hobbies-description{
+    text-align: center;
+    width:60%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.travel-img{
+    width:30%;
+    height:40%;
+}
+
+
+img.travel-img.travel-img-1 {
+    border: 15px solid gainsboro;
+    position: absolute;
+    top:30%;
+    left:10%;
+    
+    transform: rotate(26deg);
+}
+img.travel-img.travel-img-2 {
+    border: 15px solid gainsboro;
+    position: absolute;
+    top:60%;
+    left:35%;
+    
+}
+img.travel-img.travel-img-3 {
+    border: 15px solid gainsboro;
+    position: absolute;
+    transform: rotate(-26deg);
+    top:30%;
+    right:10%;
+}
+
+footer{
+    margin-top: 100px;;
+    padding:20px 0px;
+    background-color: wheat;
 }
